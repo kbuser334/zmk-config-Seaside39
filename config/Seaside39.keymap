@@ -53,7 +53,7 @@
         default_layer {
             bindings = <
 &kp Q      &kp W         &kp E         &kp R                   &kp T                                           &kp Y        &kp U  &kp I     &kp O     &kp P
-&kp A      &kp S         &kp D         &kp F                   &kp G                                           &kp H        &kp J  &kp K     &kp L     &kp ENTER
+&kp A      &kp S         &kp D         &kp F                   &kp G                                           &kp H        &kp J  &kp K     &kp L     &lt 3 ENTER
 &kp Z      &kp X         &kp C         &kp V                   &kp B                                           &kp N        &kp M  &mkp MB1  &mkp MB3  &mkp MB2
 &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mt LEFT_CONTROL GRAVE  &kp LEFT_SHIFT  &lt 1 SPACE      &kp BACKSPACE  &lt 2 ENTER                             &mo 3
             >;
@@ -82,7 +82,7 @@
         MOUSE {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &kp LC(W)       &kp F5        &kp LS(LC(TAB))  &kp LC(TAB)  &sl 5
-&trans  &trans  &trans  &trans  &trans                      &msc SCRL_UP    &mkp MB3      &mkp MB1         &mkp MB2     &none
+&trans  &trans  &trans  &trans  &trans                      &mkp MB3        &mkp MB1      &mkp MB2         &sl 5        &none
 &trans  &trans  &trans  &trans  &trans                      &msc SCRL_DOWN  &kp LA(LEFT)  &kp LA(RIGHT)    &none        &none
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                      &none
             >;
