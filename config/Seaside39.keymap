@@ -75,10 +75,10 @@
 
         SYMBOL {
             bindings = <
-&kp ESC              &kp TAB        &kp UP         &kp LS(NUMBER_1)  &kp LS(FSLH)                      &kp MINUS            &kp EQUAL    &kp LS(INTERNATIONAL_3)  &kp LS(NUMBER_8)   &kp LS(NUMBER_9)
-&kp GRAVE            &kp LEFT       &kp DOWN       &kp RIGHT         &kp MINUS                         &kp SEMICOLON        &kp COLON    &kp LEFT_BRACKET         &kp RIGHT_BRACKET  &kp BACKSLASH
-&kp INTERNATIONAL_3  &kp BACKSLASH  &kp LS(EQUAL)  &kp COMMA         &kp PERIOD                        &kp INTERNATIONAL_3  &kp AT_SIGN  &kp UNDER                &kp SLASH          &kp RIGHT_SHIFT
-&macro1              &trans         &trans         &trans            &trans        &trans      &trans  &kp DELETE                                                                    &kp RCTRL
+&kp ESC              &kp TAB        &kp UP         &kp LS(NUMBER_1)  &kp LS(FSLH)                     &kp MINUS            &kp EQUAL    &kp LS(INTERNATIONAL_3)  &kp LS(NUMBER_8)   &kp LS(NUMBER_9)
+&kp GRAVE            &kp LEFT       &kp DOWN       &kp RIGHT         &kp MINUS                        &kp SEMICOLON        &kp COLON    &kp LEFT_BRACKET         &kp RIGHT_BRACKET  &kp BACKSLASH
+&kp INTERNATIONAL_3  &kp BACKSLASH  &kp LS(EQUAL)  &kp COMMA         &kp PERIOD                       &kp INTERNATIONAL_3  &kp AT_SIGN  &kp UNDER                &kp SLASH          &kp RIGHT_SHIFT
+&macro1              &trans         &trans         &trans            &trans        &trans      &sl 5  &kp DELETE                                                                    &kp RCTRL
             >;
         };
 
