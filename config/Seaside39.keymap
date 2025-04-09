@@ -30,6 +30,11 @@
             bindings = <&macro1>;
             key-positions = <20 21>;
         };
+
+        LEnterToLayer5 {
+            bindings = <&mo 5>;
+            key-positions = <18 19>;
+        };
     };
 
     macros {
